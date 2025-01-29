@@ -39,6 +39,12 @@ return {
     end,
   },
   {
+    "lewis6991/gitsigns.nvim",
+    config = function()
+      require("gitsigns").setup{}
+    end
+  },
+  {
     "S1M0N38/love2d.nvim",
     cmd = "LoveRun",
     opts = {},
