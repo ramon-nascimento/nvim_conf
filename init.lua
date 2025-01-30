@@ -4,7 +4,7 @@ vim.o.textwidth = 80
 vim.o.wrap = true
 
 -- Configurações do neovide
-vim.g.neovide_cursor_animation_length = 0.05
+vim.g.neovide_cursor_animation_length = 0.04
 --vim.g.neovide_transparency = 0.9
 --vim.g.neovide_normal_opacity = 0.9
 vim.o.guifont = "JetBrainsMono Nerd Font:h14"

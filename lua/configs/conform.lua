@@ -7,16 +7,11 @@ local options = {
     lua = { "stylua" },
     go = { "goimports", "goftm" },
     python = { "black" },
-    cpp = {},
-    -- css = { "prettier" },
-    -- html = { "prettier" },
   },
 
   format_on_save = {
-    -- These options will be passed to conform.format()
     timeout_ms = 500,
-    lsp_format = "prefer",
-    --lsp_fallback = true,
+    lsp_format = "fallback",
   },
 }
 
