@@ -16,11 +16,12 @@ return {
   },
   {
     "vague2k/vague.nvim",
+    lazy = false,
     config = function()
-      require("vague").setup({
-        vim.cmd.colorscheme("vague")
-      })
-    end
+      require("vague").setup {
+        vim.cmd.colorscheme "vague",
+      }
+    end,
   },
   {
     "LazyVim/LazyVim",
